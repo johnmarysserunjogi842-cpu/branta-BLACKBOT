@@ -1,0 +1,94 @@
+instruments:
+  # Commodities
+  XAUUSD:
+    type: "commodity"
+    point_value: 0.01
+    min_lot: 0.01
+    max_lot: 5.0
+    spread_limit: 3.0
+    session_filter: true
+    allow_scalping: true
+
+  XAGUSD:
+    type: "commodity"
+    point_value: 0.01
+    min_lot: 0.1
+    max_lot: 500.0
+    spread_limit: 5.0
+    session_filter: true
+    allow_scalping: true
+
+  # Forex Majors
+  EURUSD:
+    type: "forex"
+    point_value: 0.0001
+    min_lot: 0.01
+    max_lot: 10.0
+    spread_limit: 1.5
+    session_filter: true
+    allow_scalping: true
+
+  GBPUSD:
+    type: "forex"
+    point_value: 0.0001
+    min_lot: 0.01
+    max_lot: 8.0
+    spread_limit: 2.0
+    session_filter: true
+    allow_scalping: true
+
+  USDJPY:
+    type: "forex"
+    point_value: 0.01
+    min_lot: 0.01
+    max_lot: 10.0
+    spread_limit: 1.5
+    session_filter: true
+    allow_scalping: true
+
+  USDCAD:
+    type: "forex"
+    point_value: 0.0001
+    min_lot: 0.01
+    max_lot: 10.0
+    spread_limit: 2.0
+    session_filter: true
+    allow_scalping: true
+
+  # Crypto
+  BTCUSD:
+    type: "crypto"
+    point_value: 1.0
+    min_lot: 0.001
+    max_lot: 1.0
+    spread_limit: 50.0
+    session_filter: false
+    allow_scalping: false
+
+  ETHUSD:
+    type: "crypto"
+    point_value: 0.1
+    min_lot: 0.01
+    max_lot: 10.0
+    spread_limit: 10.0
+    session_filter: false
+    allow_scalping: false
+
+  # Indices
+  SPX500:
+    type: "index"
+    point_value: 0.1
+    min_lot: 0.01
+    max_lot: 5.0
+    spread_limit: 2.0
+    session_filter: true
+    allow_scalping: true
+
+  NAS100:
+    type: "index"
+    point_value: 0.1
+    min_lot: 0.01
+    max_lot: 5.0
+    spread_limit: 2.5
+    session_filter: true
+    allow_scalping: true

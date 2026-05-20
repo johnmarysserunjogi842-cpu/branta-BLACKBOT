@@ -1,0 +1,39 @@
+risk:
+  # Max % of account per trade (aggressive)
+  max_risk_per_trade:
+    forex: 0.02        # 2%
+    commodity: 0.03    # 3%
+    crypto: 0.04       # 4%
+    index: 0.025       # 2.5%
+
+  # Daily account risk stop
+  max_daily_loss: 0.05   # 5% account stop for all instruments
+  max_drawdown: 0.15     # 15% total account drawdown
+
+  # Position sizing rules
+  position_sizing:
+    method: "fixed_fractional"
+    base_lot:
+      forex: 0.2
+      commodity: 0.2
+      crypto: 0.1
+      index: 0.2
+    scale_with_confidence: true  # bigger trades for higher confidence
+    max_lot_multiplier: 2.0     # can double lot size at peak confidence
+
+  # Circuit breakers for losing streaks
+  circuit_breaker:
+    consecutive_losses: 3        # aggressive: pause after 3 losing trades
+    pause_minutes: 30
+
+  # Confidence-based trading rules
+  confidence_rules:
+    min_confidence_to_trade: 0.15  # low threshold for aggression
+    reduce_size_below: 0.4         # reduce lot size if confidence is low
+
+  # Spread tolerance per instrument type
+  max_spread:
+    forex: 2.0
+    commodity: 5.0
+    crypto: 50.0
+    index: 3.0

@@ -1,0 +1,19 @@
+timeframes:
+  analysis:
+    HTF: "H1"
+    MTF: "M15"
+    LTF: "M5"
+
+  strategy_mapping:
+    liquidity_sweep_entry: "M5"
+    vwap_reversion: "M5"
+    smart_money_structure: "M15"
+    range_expansion_fade: "M15"
+
+  data_requirements:
+    H1:
+      lookback_bars: 200
+    M15:
+      lookback_bars: 200
+    M5:
+      lookback_bars: 200

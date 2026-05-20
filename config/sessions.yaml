@@ -1,0 +1,21 @@
+from datetime import time
+
+SESSIONS = {
+    "ASIA": {
+        "start": time(0, 0),
+        "end": time(8, 0),
+        "mode": "RANGE"
+    },
+    "LONDON": {
+        "start": time(8, 0),
+        "end": time(16, 0),
+        "mode": "TREND"
+    },
+    "NY": {
+        "start": time(13, 0),
+        "end": time(21, 0),
+        "mode": "BREAKOUT"
+    }
+}
+
+MAINTENANCE_HOUR = (0, 1)  # UTC

@@ -1,0 +1,173 @@
+Folder PATH listing
+Volume serial number is 00000062 9611:01B8
+C:.
+³   .env
+³   blackbot.spec
+³   bootstrap_blackbot.py
+³   CMakeLists.txt
+³   execution_controller.py
+³   institutional_runtime_guard.py
+³   main.py
+³   market_core.py
+³   pipeline_orchestrator.py
+³   py
+³   requirements.txt
+³   run_app.py
+³   run_ui.py
+³   setup.py
+³   signal_engine.py
+³   signal_pipeline.py
+³   structure.txt
+³   trading_orchestrator.py
+³   
+ÃÄÄÄboot
+³   ³   bootfile.py
+³   ³   offline_ui.py
+³   ³   startup_guard.py
+³   ³   
+³   ÀÄÄÄ__pycache__
+³           bootfile.cpython-313.pyc
+³           offline_ui.cpython-313.pyc
+³           startup_guard.cpython-311.pyc
+³           startup_guard.cpython-313.pyc
+³           
+ÃÄÄÄcache
+ÃÄÄÄconfig
+³       instruments.yaml
+³       risk.yaml
+³       sessions.yaml
+³       timeframes.yaml
+³       __init__.py
+³       
+ÃÄÄÄconnectors
+³   ³   account_connector.py
+³   ³   app_connector.py
+³   ³   feedback.py
+³   ³   telegram_adapter.py
+³   ³   __init__.py
+³   ³   
+³   ÀÄÄÄ__pycache__
+³           account_connector.cpython-313.pyc
+³           app_connector.cpython-313.pyc
+³           feedback.cpython-313.pyc
+³           __init__.cpython-313.pyc
+³           
+ÃÄÄÄcore
+³   ³   data_fetcher.cpp
+³   ³   event_bus.py
+³   ³   execution_validator.py
+³   ³   lifecycle.py
+³   ³   risk_governor.py
+³   ³   runtime.py
+³   ³   self_healing.py
+³   ³   trade_executor.cpp
+³   ³   trade_executor.py
+³   ³   trade_executor_bindings.cpp
+³   ³   trading_safety.py
+³   ³   unified_engine.py
+³   ³   __init__.py
+³   ³   
+³   ÀÄÄÄ__pycache__
+³           lifecycle.cpython-311.pyc
+³           lifecycle.cpython-313.pyc
+³           runtime.cpython-311.pyc
+³           runtime.cpython-313.pyc
+³           self_healing.cpython-313.pyc
+³           trade_executor.cpython-313.pyc
+³           __init__.cpython-311.pyc
+³           __init__.cpython-313.pyc
+³           
+ÃÄÄÄdata
+ÃÄÄÄlogs
+³       boot.log
+³       
+ÃÄÄÄmarket_analyzer
+³   ³   calendar_common.py
+³   ³   economic_calendar_adapter.py
+³   ³   feature_extractor.py
+³   ³   instrument_ranker.py
+³   ³   market_regime.py
+³   ³   market_state_cache.py
+³   ³   news_fetcher.py
+³   ³   news_filter.py
+³   ³   orchestrator.py
+³   ³   timeframe_engine.py
+³   ³   __init__.py
+³   ³   
+³   ÀÄÄÄ__pycache__
+³           feature_extractor.cpython-313.pyc
+³           market_state_cache.cpython-313.pyc
+³           orchestrator.cpython-313.pyc
+³           __init__.cpython-313.pyc
+³           
+ÃÄÄÄmodules
+ÃÄÄÄperformance
+³   ³   debugger.py
+³   ³   metrics.py
+³   ³   __init__.py
+³   ³   
+³   ÀÄÄÄ__pycache__
+³           debugger.cpython-313.pyc
+³           metrics.cpython-313.pyc
+³           __init__.cpython-313.pyc
+³           
+ÃÄÄÄruntime_hooks
+³       runtime_bootstrap.py
+³       
+ÃÄÄÄruntime_snapshots
+³       snapshot_1778941123.json
+³       snapshot_1778944684.json
+³       snapshot_1778954508.json
+³       snapshot_1778958800.json
+³       snapshot_1778966189.json
+³       snapshot_1779000978.json
+³       snapshot_1779099832.json
+³       
+ÃÄÄÄStrategies
+³       break_and_retest.py
+³       htf_bias_ltf_entry.py
+³       liquidity_sweep_entry.py
+³       liquidity_void_fill.py
+³       mean_reversion.py
+³       momentum_ignition.py
+³       order_flow_confirmation.py
+³       range_expansion_fade.py
+³       smart_money_structure.py
+³       trend_pullback_volatility.py
+³       volatility_compression_expansion.py
+³       vwap_reversion.py
+³       __init__.py
+³       
+ÃÄÄÄstrategy_manager
+³   ³   confirmation_engine.py
+³   ³   strategy_loader.py
+³   ³   strategy_voter.py
+³   ³   __init__.py
+³   ³   
+³   ÀÄÄÄ__pycache__
+³           confirmation_engine.cpython-313.pyc
+³           strategy_loader.cpython-313.pyc
+³           strategy_voter.cpython-313.pyc
+³           __init__.cpython-313.pyc
+³           
+ÃÄÄÄUI
+³       controller.py
+³       dashboard.py
+³       main_window.py
+³       sidebar.py
+³       ui_scheduler.py
+³       __init__.py
+³       
+ÃÄÄÄutils
+³       paths.py
+³       __init__.py
+³       
+ÀÄÄÄ__pycache__
+        execution_controller.cpython-313.pyc
+        institutional_runtime_guard.cpython-313.pyc
+        main.cpython-313.pyc
+        market_core.cpython-313.pyc
+        pipeline_orchestrator.cpython-313.pyc
+        signal_engine.cpython-313.pyc
+        signal_pipeline.cpython-313.pyc
+        
